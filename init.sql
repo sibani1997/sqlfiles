@@ -4,7 +4,8 @@ CREATE TABLE Persons (
     FirstName varchar(255),
     Address varchar(255),
     City varchar(255),
-    Birthday varchar(255)
+    Birthday varchar(255),
+    col1 int
 );
 
 SELECT * from persons;
